@@ -8,18 +8,6 @@ public class CarrotSeller {
         private String licencePlate;
         private double consumptionPer100Km;
 
-    // Constructor
-    public CarrotSeller(String name, String dateOfBirth, int numberOfContract, double amountOfSoldCarrots, String city, String address, String licencePlate, double consumptionPer100Km) {
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.numberOfContract = numberOfContract;
-        this.amountOfSoldCarrots = amountOfSoldCarrots;
-        this.city = city;
-        this.address = address;
-        this.licencePlate = licencePlate;
-        this.consumptionPer100Km = consumptionPer100Km;
-    }
-
     //Name
     public String getName() {
         return name;
